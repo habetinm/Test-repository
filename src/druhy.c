@@ -4,5 +4,5 @@
 int func_druhy(void)
 {
     int var = DEF_DRUHY + func_treti();
-    return var;
+    return var*3 + 12;
 }
